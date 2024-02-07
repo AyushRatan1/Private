@@ -1,0 +1,155 @@
+/* Resetting and Importing Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
+/* General Styles */
+body {
+  background-color: #fff7ec;
+  color: #5e5e5e;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #ffeadb;
+}
+
+.navbar__links {
+  color: #8c5e0a;
+}
+
+.navbar-nav li a:hover {
+  color: #e07b10;
+}
+
+.navbar__logo {
+  color: #e07b10;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Container Styles */
+.top-m {
+  margin-top: 8%;
+}
+
+.container-fluid {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* Header Styles */
+.home__container {
+  height: 30rem;
+  padding: 6rem;
+}
+
+/* Blog Styles */
+.blog-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5rem;
+  color: #5e5e5e;
+}
+
+.blog-sub-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #8c5e0a;
+}
+
+/* Card Styles */
+.card {
+  box-shadow: 2px 6px 16px 3px #e2dccc;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #5e5e5e;
+}
+
+.card-text {
+  min-height: 90px;
+  max-height: 90px;
+  overflow: hidden;
+  color: #8c5e0a;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #e07b10 !important;
+}
+
+.btn-primary:hover {
+  background-color: #c6640d !important;
+}
+
+.home__write-btn {
+  background-color: #e07b10;
+  margin-left: 6rem;
+}
+
+/* Footer Styles */
+.site-footer {
+  background-color: #e07b10;
+  padding: 35px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+}
+
+.site-footer hr {
+  border-top-color: #bf923e;
+  opacity: 0.5;
+}
+
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
+.site-footer a {
+  color: #fff;
+}
+
+.site-footer a:hover {
+  color: #bf923e;
+  text-decoration: none;
+}
+
+/* Social Icons Styles */
+.social-icons a {
+  background-color: #f5e7d1;
+  color: #5e5e5e;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #c6640d;
+}
+
+.social-icons a.linkedin:hover {
+  background-color: #a9500a;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
